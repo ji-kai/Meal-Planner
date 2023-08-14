@@ -5,10 +5,10 @@ from typing import Union, List, Dict
 class HooEatsDatabase:
 
     def __init__(self, secure:bool = False):
-        HOST = "35.188.232.76"
-        DATABASE = "hooeatsdb"
-        USERNAME = "webappuser"
-        PASSWORD = "GCFSpring2023"
+        HOST = "Hidden"
+        DATABASE = "Hidden"
+        USERNAME = "Hidden"
+        PASSWORD = "Hidden"
         
         self.db = mysql.connector.connect(host=HOST, database=DATABASE, username=USERNAME, password=PASSWORD, autocommit=True)
         if self.db.is_connected() and secure == False:
